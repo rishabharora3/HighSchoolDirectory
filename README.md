@@ -26,13 +26,13 @@ Utilizing Paging 3 to present data after retrieving it from the network
   - ViewModel -  for ViewModel and ViewModelProvider usage.
   - Navigation -  for navigation between fragments.
   - Lifecycle
-- Architecture
-  - Repository pattern
 - [Material-Components](https://github.com/material-components/material-components-android) - Material design components.
-  - MVVM Architecture
 - [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - construct the REST APIs and paging network data.
 - [Timber](https://github.com/JakeWharton/timber) - logging.
 - [Moshi](https://github.com/square/moshi/) - A modern JSON library for Kotlin and Java.
+- Architecture
+  - Repository pattern
+  - MVVM Architecture
 <br>
 
 ## Architecture
