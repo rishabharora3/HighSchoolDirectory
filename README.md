@@ -13,7 +13,14 @@ Utilizing Paging 3 to present data after retrieving it from the network
 </p>
 
 
-<img src="/previews/preview.gif" align="right" width="32%"/>
+<div class="row">
+  <div class="column">
+    <img src="screenshot1.png" alt="Snow" style="width:32%">
+  </div>
+  <div class="column">
+    <img src="screenshot2.png" alt="Forest" style="width:32%">
+  </div>
+</div>
 
 ## Open-source libraries and the tech stack
 - Minimum SDK level 24
