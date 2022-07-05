@@ -6,7 +6,7 @@
 
         <variable
             name="schoolDetail"
-            type="com.rishabh.a20220630_rishabharora_nycschools.ui.models.SchoolDetailResponse" />
+            type="com.rishabh.highschooldirectory.ui.models.SchoolDetailResponse" />
     </data>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout

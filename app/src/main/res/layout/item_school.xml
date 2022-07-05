@@ -7,7 +7,7 @@
 
         <variable
             name="schoolItem"
-            type="com.rishabh.a20220630_rishabharora_nycschools.ui.models.SchoolListItemResponse" />
+            type="com.rishabh.highschooldirectory.ui.models.SchoolListItemResponse" />
     </data>
 
     <LinearLayout

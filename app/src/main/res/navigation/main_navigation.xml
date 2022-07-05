@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/schoolListFragment"
-        android:name="com.rishabh.a20220630_rishabharora_nycschools.ui.schoollist.SchoolListFragment"
+        android:name="com.rishabh.highschooldirectory.ui.schoollist.SchoolListFragment"
         android:label="SchoolListFragment"
         tools:layout="@layout/fragment_school_list">
         <action
@@ -21,7 +21,7 @@
 
     <fragment
         android:id="@+id/schoolDetailFragment"
-        android:name="com.rishabh.a20220630_rishabharora_nycschools.ui.schooldetail.SchoolDetailFragment"
+        android:name="com.rishabh.highschooldirectory.ui.schooldetail.SchoolDetailFragment"
         android:label="SchoolDetailFragment"
         tools:layout="@layout/fragment_school_detail">
         <action

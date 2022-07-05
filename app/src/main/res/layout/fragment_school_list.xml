@@ -7,7 +7,7 @@
 
         <variable
             name="viewModel"
-            type="com.rishabh.a20220630_rishabharora_nycschools.ui.schoollist.SchoolListViewModel" />
+            type="com.rishabh.highschooldirectory.ui.schoollist.SchoolListViewModel" />
     </data>
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
