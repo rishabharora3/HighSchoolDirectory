@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/schoolListFragment">
+
+    <fragment
+        android:id="@+id/schoolListFragment"
+        android:name="com.rishabh.a20220630_rishabharora_nycschools.ui.schoollist.SchoolListFragment"
+        android:label="SchoolListFragment"
+        tools:layout="@layout/fragment_school_list">
+        <action
+            android:id="@+id/action_schoolListFragment_to_schoolDetailFragment"
+            app:destination="@id/schoolDetailFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/schoolDetailFragment"
+        android:name="com.rishabh.a20220630_rishabharora_nycschools.ui.schooldetail.SchoolDetailFragment"
+        android:label="SchoolDetailFragment"
+        tools:layout="@layout/fragment_school_detail">
+        <action
+            android:id="@+id/action_schoolDetailFragment_to_schoolListFragment"
+            app:popUpTo="@id/schoolListFragment" />
+        <argument
+            android:name="schoolId"
+            app:argType="string"
+            app:nullable="true" />
+    </fragment>
+</navigation>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="schoolItem"
+            type="com.rishabh.a20220630_rishabharora_nycschools.ui.models.SchoolListItemResponse" />
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@{schoolItem.school_name}"
+            android:textAppearance="@style/TextAppearance.HighSchoolDirectoryStyles.Headline6"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="School Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="@{schoolItem.phone_number}"
+            android:textAppearance="@style/TextAppearance.HighSchoolDirectoryStyles.Body2"
+            android:textColor="@color/black"
+            app:drawableStartCompat="@android:drawable/ic_menu_call"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="School Number" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="@{schoolItem.location}"
+            android:textAppearance="@style/TextAppearance.HighSchoolDirectoryStyles.Body2"
+            android:textColor="@color/black"
+            app:drawableStartCompat="@android:drawable/ic_menu_mylocation"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="School location" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="@{schoolItem.school_email}"
+            android:textAppearance="@style/TextAppearance.HighSchoolDirectoryStyles.Body2"
+            android:textColor="@color/black"
+            app:drawableStartCompat="@android:drawable/sym_action_email"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="School Email" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical"
+            android:text="@{schoolItem.website}"
+            android:textAppearance="@style/TextAppearance.HighSchoolDirectoryStyles.Body2"
+            android:textColor="@color/black"
+            app:drawableStartCompat="@android:drawable/ic_menu_info_details"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="School Website" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/green_500" />
+
+
+    </LinearLayout>
+
+</layout>
