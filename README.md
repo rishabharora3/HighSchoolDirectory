@@ -21,18 +21,18 @@ Utilizing Paging 3 to present data after retrieving it from the network
 - [Coroutines](https://github.com/Kotlin/kotlinx.coroutines) for asynchronous.
 - [Koin](https://github.com/InsertKoinIO/koin) for dependency injection.
 - Android Jetpack
-  - Lifecycle - dispose of observing data when lifecycle state changes.
-  - ViewModel - UI related data holder, lifecycle aware.
-  - ViewBinding - write code that interacts with views.
-  - Navigation - navigate in the app.
-  - Paging 3 - render list.
+  - Paging 3 -  for data loading and pagination.
+  - ViewBinding - for data binding to views.
+  - ViewModel -  for ViewModel and ViewModelProvider usage.
+  - Navigation -  for navigation between fragments.
+  - Lifecycle
 - Architecture
-  - MVVM Architecture (View - DataBinding - ViewModel - Model)
   - Repository pattern
 - [Material-Components](https://github.com/material-components/material-components-android) - Material design components.
+  - MVVM Architecture
 - [Retrofit2 & OkHttp3](https://github.com/square/retrofit) - construct the REST APIs and paging network data.
-- [Moshi](https://github.com/square/moshi/) - A modern JSON library for Kotlin and Java.
 - [Timber](https://github.com/JakeWharton/timber) - logging.
+- [Moshi](https://github.com/square/moshi/) - A modern JSON library for Kotlin and Java.
 <br>
 
 ## Architecture
