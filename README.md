@@ -8,7 +8,7 @@ Utilizing Paging 3 to present data after retrieving it from the network
 </p>
 <br/>
 
-<p>
+<p align= "center">
 <img src="/previews/screenshot1.png" width = "350px"/>
 <img src="/previews/screenshot2.png" width = "350px"/>
 </p>
