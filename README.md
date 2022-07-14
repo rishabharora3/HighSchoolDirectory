@@ -16,7 +16,7 @@ Utilizing Paging 3 to present data after retrieving it from the network
 https://user-images.githubusercontent.com/14349274/179079525-8f9739e4-2be5-4db5-a83c-a01d2db48cd6.mp4
 </div>
 
-<!-- https://user-images.githubusercontent.com/14349274/179079525-8f9739e4-2be5-4db5-a83c-a01d2db48cd6.mp4 -->
+https://user-images.githubusercontent.com/14349274/179079525-8f9739e4-2be5-4db5-a83c-a01d2db48cd6.mp4
 
 
 ## Open-source libraries and the tech stack
